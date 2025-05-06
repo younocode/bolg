@@ -5,3 +5,10 @@ permalink: /  # 指定 URL（默认就是 /，可省略）
 ---
 # 欢迎访问！
 这里是我的个人主页，基于 Jekyll 构建。
+
+<!-- 直接写 HTML -->
+<div>
+  {% include navigation.html %}
+</div>
+
+[关于我](/about/)  

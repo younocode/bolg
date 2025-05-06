@@ -4,6 +4,10 @@ description: Just for Fun
 url: "https://blog.younocode.com"
 theme: jekyll-theme-cayman
 lang: zh-CN  
+include:
+  - _pages  # 告诉 Jekyll 处理此目录
+  - _includes
+  - _layouts
 navigation:
   - title: Home
     url: /
