@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  <!-- 在这里引入导航栏 -->
+  {% include navigation.html %}
+
+  <!-- 页面内容 -->
+  {{ content }}  <!-- Jekyll 会自动注入页面的 Markdown/HTML 内容 -->
+</body>
+</html>
