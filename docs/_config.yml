@@ -1,8 +1,26 @@
-theme: jekyll-theme-cayman
+
 title: younocode
-description: Bookmark this to keep an eye on my project updates!
+description: Just for Fun
+url: "https://blog.younocode.com"
+theme: jekyll-theme-cayman
+lang: zh-CN  
 navigation:
   - title: Home
     url: /
   - title: About
     url: /about
+plugins:
+  - jekyll-feed              # 生成RSS订阅
+  - jekyll-seo-tag           # SEO优化
+  - jekyll-sitemap           # 生成站点地图
+  - jekyll-paginate          # 分页功能（需配合下文配置）
+paginate: 5
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      author: "younocode"
+social:
+  github: younocode
+  twitter: alice_dev
